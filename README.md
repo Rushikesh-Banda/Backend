@@ -11,9 +11,9 @@ The project demonstrates how to build secure backend services with authenticatio
 
 ---
 
-# 🚀 Features
+#  Features
 
-## ✅ User Authentication
+##  User Authentication
 
 * User Registration
 * User Login
@@ -22,7 +22,7 @@ The project demonstrates how to build secure backend services with authenticatio
 
 ---
 
-## ✅ Product Management
+##  Product Management
 
 * Add Products
 * Get Products
@@ -31,7 +31,7 @@ The project demonstrates how to build secure backend services with authenticatio
 
 ---
 
-## ✅ Middleware Authentication
+##  Middleware Authentication
 
 * Verify JWT Token
 * Secure API Endpoints
@@ -39,7 +39,7 @@ The project demonstrates how to build secure backend services with authenticatio
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```bash id="04b4xv"
 Backend/
@@ -64,7 +64,7 @@ Backend/
 
 ---
 
-# 📘 Technologies Used
+#  Technologies Used
 
 | Technology | Purpose            |
 | ---------- | ------------------ |
@@ -77,11 +77,11 @@ Backend/
 
 ---
 
-# 📌 Important Concepts
+#  Important Concepts
 
 ---
 
-# 🔹 Node.js
+#  Node.js
 
 ## Definition
 
@@ -95,7 +95,7 @@ Node.js is a JavaScript runtime environment used to execute JavaScript outside t
 
 ---
 
-# 🔹 Express.js
+#  Express.js
 
 ## Definition
 
@@ -110,7 +110,7 @@ const app = express();
 
 ---
 
-# 🔹 REST API
+#  REST API
 
 ## Definition
 
@@ -127,7 +127,7 @@ REST API allows communication between frontend and backend using HTTP methods.
 
 ---
 
-# 🔹 MongoDB
+#  MongoDB
 
 ## Definition
 
@@ -141,7 +141,7 @@ MongoDB is a NoSQL database used to store data in JSON-like documents.
 
 ---
 
-# 🔹 Mongoose
+#  Mongoose
 
 ## Definition
 
@@ -155,11 +155,11 @@ Mongoose is an ODM (Object Data Modeling) library for MongoDB and Node.js.
 
 ---
 
-# 📄 Models
+#  Models
 
 ---
 
-# 📄 User-Model.js
+#  User-Model.js
 
 ## Purpose
 
@@ -184,7 +184,7 @@ const UserSchema = new mongoose.Schema({
 
 ---
 
-# 📄 Product-Model.js
+#  Product-Model.js
 
 ## Purpose
 
@@ -199,11 +199,11 @@ Defines schema for product data.
 
 ---
 
-# 📄 APIs
+#  APIs
 
 ---
 
-# 📄 User-Apis.js
+#  User-Apis.js
 
 ## Purpose
 
@@ -221,7 +221,7 @@ Handles:
 
 ---
 
-# 📄 Product-Api.js
+#  Product-Api.js
 
 ## Purpose
 
@@ -240,11 +240,11 @@ Handles:
 
 ---
 
-# 📄 Middleware
+#  Middleware
 
 ---
 
-# 📄 VerifyToken.js
+#  VerifyToken.js
 
 ## Purpose
 
@@ -264,7 +264,7 @@ app.use("/products", verifyToken);
 
 ---
 
-# 🔹 JWT (JSON Web Token)
+#  JWT (JSON Web Token)
 
 ## Definition
 
@@ -280,7 +280,7 @@ JWT is used for secure authentication between client and server.
 
 ---
 
-# 📌 API Flow
+#  API Flow
 
 ```text id="0wmytr"
 Client Request
@@ -298,11 +298,11 @@ Response Sent Back
 
 ---
 
-# 📌 Important Backend Concepts
+#  Important Backend Concepts
 
 ---
 
-# 🔹 Middleware
+#  Middleware
 
 ## Definition
 
@@ -317,7 +317,7 @@ Middleware functions execute before request reaches the API route.
 
 ---
 
-# 🔹 CRUD Operations
+#  CRUD Operations
 
 | Operation | Meaning     |
 | --------- | ----------- |
@@ -328,7 +328,7 @@ Middleware functions execute before request reaches the API route.
 
 ---
 
-# 🔹 Authentication
+#  Authentication
 
 ## Definition
 
@@ -341,7 +341,7 @@ Authentication verifies user identity.
 
 ---
 
-# 🔹 Authorization
+#  Authorization
 
 ## Definition
 
@@ -349,7 +349,7 @@ Authorization checks user permissions after authentication.
 
 ---
 
-# 📌 request.http File
+#  request.http File
 
 ## Purpose
 
@@ -364,7 +364,7 @@ Used to test APIs directly.
 
 ---
 
-# ▶ How to Run the Project
+#  How to Run the Project
 
 ---
 
@@ -400,7 +400,7 @@ http://localhost:5000
 
 ---
 
-# 📌 Example API Endpoints
+#  Example API Endpoints
 
 | Method | Endpoint        | Description      |
 | ------ | --------------- | ---------------- |
@@ -413,6 +413,6 @@ http://localhost:5000
 
 ---
 
-# 📌 Conclusion
+#  Conclusion
 
 This project demonstrates a complete backend API architecture using Node.js, Express.js, MongoDB, and JWT authentication. It provides practical experience in building secure REST APIs, handling database operations, implementing middleware, and organizing backend applications using modular structure.
